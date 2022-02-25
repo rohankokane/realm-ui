@@ -1,6 +1,6 @@
 import React from "react"
 import { Story, Meta } from "@storybook/react"
-import Field from "."
+import Field from "./Field"
 import Input from "./Input"
 
 export default {

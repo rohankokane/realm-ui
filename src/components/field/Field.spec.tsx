@@ -1,6 +1,6 @@
 import React from "react"
 import { render, screen } from "@testing-library/react"
-import Field from "."
+import Field from "./Field"
 // import {useUniqeID} from '../../utils/'
 jest.mock("../../utils/useUniqueID")
 describe("Field", () => {

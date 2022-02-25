@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components"
-import { ButtonProps } from "."
+import { ButtonProps } from "./Button"
 
 import {
   DANGER_COLOR,

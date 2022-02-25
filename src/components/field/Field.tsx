@@ -1,17 +1,9 @@
-import React, { useContext } from "react"
+import React from "react"
 import { useUniqueID } from "../../utils/useUniqueID"
 import { FieldContext } from "./FieldContext"
 import Input from "./Input"
 import Label from "./Label"
 import Textarea from "./Textarea"
-
-export const useField = () => {
-  const id = useContext(FieldContext)
-  if (id === undefined) {
-    throw new Error(`Must be used within a Field component`)
-  }
-  return id
-}
 
 interface FieldComposition {
   Label: typeof Label

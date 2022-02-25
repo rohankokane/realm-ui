@@ -1,5 +1,5 @@
 import React from "react"
-import { useField } from "."
+import { useField } from "./FieldContext"
 import { StyledLabel } from "./styles"
 
 const Label = React.forwardRef<
