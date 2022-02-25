@@ -3,7 +3,7 @@ import { useField } from "."
 import { StyledInput } from "./styles"
 
 /**
- * Input for user inputs
+ * Input component for user inputs
  */
 const Input = React.forwardRef<
   HTMLInputElement,

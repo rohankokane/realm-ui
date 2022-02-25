@@ -10,7 +10,7 @@ export interface TextareaProps
 }
 
 /**
- * Textarea for user inputs
+ * Textarea component for larger resizable text inputs
  */
 const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
   ({ isResizable, ...props }, ref) => {
