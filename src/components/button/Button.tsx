@@ -31,6 +31,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     },
     ref,
   ) => {
+    const { disabled } = props
     return (
       <StyledButton
         type="button"
@@ -38,6 +39,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         size={size}
         isFullWidth={isFullWidth}
         ref={ref}
+        aria-disabled={disabled}
         {...props}
       >
         {children}
